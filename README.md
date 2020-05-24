@@ -7,3 +7,8 @@ Korean name data
 ## Changes
 - 필요없는 데이터 (비율 등) 삭제
 - 2008 ~ 2019년 수치 합산
+## Use (Deno)
+```ts
+import {m, f} from "https://raw.githubusercontent.com/randkid/name/master/mod.ts";
+console.log(m.data.length, f.data.length); // 37112 27294
+```
