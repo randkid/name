@@ -9,6 +9,6 @@ Korean name data
 - 2008 ~ 2019년 수치 합산
 ## Use (Deno)
 ```ts
-import {m, f} from "https://raw.githubusercontent.com/randkid/name/master/mod.ts";
-console.log(m.data.length, f.data.length); // 37112 27294
+import name from "https://raw.githubusercontent.com/randkid/name/master/mod.ts"
+console.log(name.rand(Math.random()))
 ```
