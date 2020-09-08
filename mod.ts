@@ -1,6 +1,6 @@
 import {weightedList} from "./deps.ts"
 import {Nominal} from "https://raw.githubusercontent.com/randkid/Randkid/master/mod.ts"
-import gender from "https://raw.githubusercontent.com/randkid/gender/master/mod.ts"
+import {gender} from "https://raw.githubusercontent.com/randkid/Collection/master/mod.ts"
 
 import f from "./f.js"
 import m from "./m.js"
